@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Joubert's Holdings</title>
+  <meta name="description" content="Joubert's Holdings — Security, Catering & Construction services." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Joubert's Holdings</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="nav" class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Joubert's Holdings</h1>
+        <p>Reliable security, professional catering, and quality construction — building trust & delivering excellence in Botswana.</p>
+        <p><a class="btn" href="#contact">Get in touch</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About Us</h2>
+      <p>Joubert's Holdings is a multi-service company operating in security, catering, and construction. We combine local insight with professional standards to deliver safe, delicious, and durable solutions for businesses and communities.</p>
+    </section>
+
+    <section id="services" class="services container">
+      <h2>Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Security</h3>
+          <p>Trained guards, electronic surveillance setup, risk assessments, and rapid response plans to protect people and assets.</p>
+        </article>
+        <article class="card">
+          <h3>Catering</h3>
+          <p>Event catering, corporate meal plans, and hygienic food service tailored to your needs — seasonal & local menus available.</p>
+        </article>
+        <article class="card">
+          <h3>Construction</h3>
+          <p>Residential and commercial builds, renovations, and project management — on-time and on-budget workmanship.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h2>Selected Projects</h2>
+      <ul>
+        <li><strong>Site Security Rollout —</strong> Branch network security for a local retailer.</li>
+        <li><strong>Corporate Catering —</strong> Ongoing meal services for corporate clients.</li>
+        <li><strong>Residential Renovation —</strong> Upgrading homes with modern finishes and wiring.</li>
+      </ul>
+    </section>
+
+    <section id="team" class="container team">
+      <h2>Our Team</h2>
+      <div class="team-grid">
+        <div class="member">
+          <div class="avatar">BK</div>
+          <h4>Bakang Joubert</h4>
+          <p>Founder & CEO</p>
+        </div>
+        <div class="member">
+          <div class="avatar">VM</div>
+          <h4>Vuyo Mfazi</h4>
+          <p>Project Supervisor</p>
+        </div>
+        <!-- Add more team members here -->
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>Interested in our services? Send a quick message or email us directly.</p>
+
+      <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <!-- Replace Formspree action with your endpoint or remove action to use mailto -->
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" id="name" required />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" id="email" required />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" id="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <p class="contact-alts">Or email: <a href="mailto:info@joubertsholdings.example">info@joubertsholdings.example</a> | Phone: +267 7X XXX XXX</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Joubert's Holdings. All rights reserved.</p>
+      <p class="small">Designed for small businesses • Simple static site ready for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
